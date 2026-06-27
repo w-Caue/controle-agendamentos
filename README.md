@@ -60,7 +60,7 @@ Este projeto foi criado com foco em aprendizado de desenvolvimento de APIs REST 
 ```java
 public class Agendamento {
 
-    rivate Long id;
+    private Long id;
     private String servico;
     private String profissional;
     private LocalDateTime dataHoraAgendamento;
